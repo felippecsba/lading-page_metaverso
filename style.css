@@ -1,0 +1,195 @@
+:root {
+  --turquesa: #31e6ff;
+  --azul: #20017b;
+  --roxo: #8f37ff;
+  --amarelo: #ffde31;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a21;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Exo', sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+} 
+
+/* ------------------------------------ HEADER */
+
+header {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+
+}
+
+img {
+  width: 15%;
+  height: 15%;
+}
+
+nav ul {
+  margin: 0 60px;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 20px ;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+  color: #fff;
+}
+
+.buttonLogin {
+  border: none;
+  padding: 10px 30px ;
+  background-color: var(--amarelo);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.buttonLogin:hover {
+  opacity:1;
+  background-color: var(--roxo);
+  color: #fff;
+}
+
+/* ------------------------------------ BANNER */
+
+
+h1 {
+  font-size: 3.5rem;
+  padding: 2rem 0;
+}
+
+header p {
+  padding: 2rem 0;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.buttonHeader {
+  border: none;
+  margin-right: 40px;
+  padding: 10px 30px ;
+  background-color: var(--amarelo);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.buttonHeader:hover {
+  opacity:1;
+  background-color: var(--roxo);
+  color: #fff;
+}
+
+.botoes a {
+  color: var(--turquesa);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.banner {
+  width: 960px;
+  margin: 0 auto;
+  
+}
+.banner img {
+  width: 50%;
+}
+
+/* ------------------------------------ CARDS */
+
+.cards {
+background: rgb(143, 55, 255);
+background: linear-gradient(45deg, rgba(143, 55, 255,0.1) 0%, rgba(143, 55, 255,0.5) 100%);
+}
+
+.card {
+  max-width: 300px;
+  width: 100%;
+  padding: 1rem 1rem;
+  margin: 3rem 1rem;
+  
+  border: 3px solid var(--amarelo);
+  color: var(--amarelo);
+  border-radius: 8px; 
+}
+
+h3 {
+  padding: 0.75rem 0;
+  font-size: 1.5rem;
+}
+
+ion-icon {
+  font-size: 3rem;
+}
+
+.text_card {
+  text-align: center;
+
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+}
+
+.text_card h2 {
+  padding-bottom: 1rem;
+  font-size: 2.25rem;
+}
+
+.text_card p {
+  padding-bottom: 2rem;
+}
+
+/* ------------------------------------ CONTATO */
+
+.contact {
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+}
+
+.contact img {
+  width: 50%;
+  border-radius: 50%; 
+  border: 3px solid #fff;
+  
+}
+
+form {
+  
+}
